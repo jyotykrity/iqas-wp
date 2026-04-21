@@ -1,7 +1,6 @@
 </main>
-
 <footer class="footer">
-<p>© 2026 Institute of Quick Assignment Solutions</p>
+<p>© <?php echo date('Y'); ?> Institute of Quick Assignment Solutions</p>
 </footer>
 <nav class="bottom-nav">
 <a href="#home">🏠</a>
@@ -13,11 +12,18 @@
 {
  "@context":"https://schema.org",
  "@type":"ProfessionalService",
- "name":"Assignment Help",
- "areaServed":"Australia",
+ "name": "Institute of Quick Assignment Solutions",
+ "url": "<?php echo home_url('/'); ?>",
+ "areaServed": [
+  { "@type": "Country", "name": "Australia" },
+  { "@type": "Country", "name": "United Kingdom" },
+  { "@type": "Country", "name": "United States" }
+],
+ "description":"",
  "knowsAbout":[
-   "Essay Writing",
-   "Thesis Help",
+   "Assignment Help",
+   "Essay Writing Service",
+   "Thesis Support",
    "Dissertation Research",
    "Case Study Assistance"
  ]
