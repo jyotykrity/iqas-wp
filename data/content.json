@@ -1,0 +1,7 @@
+{
+ "services":[
+  {"title":"Essay Help","desc":"Improve essay writing skills"},
+  {"title":"Case Study Writing","desc":"Teaches an in-depth and detailed examination of the topic"},
+  {"title":"Dissertation & Thesis Help","desc":"Guides on research and data collection for thesis or dissertations"}
+ ]
+}
